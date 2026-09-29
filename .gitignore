@@ -1,0 +1,11 @@
+# runtime artifacts (never committed)
+runs/
+cache/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# the assembled 5 GB model (parts live in llm/qwen3-8b-parts/)
+llm/*.gguf
+llm/*.gguf.tmp
